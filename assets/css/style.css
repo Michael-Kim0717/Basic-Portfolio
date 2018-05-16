@@ -69,6 +69,27 @@ p {
 
 /* portfolio.html */
 
+h6 {
+    background-color: #A2D9CE;
+    bottom: 60px;
+    color: white;
+    font-family: 'Varela Round';
+    height: 30px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
+    width: 250px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+/* .portfolio-image {
+    display: flex;
+} */
+
 /* contact.html */
 
 h4 {
