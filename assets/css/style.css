@@ -1,14 +1,14 @@
 /* Navigation Bar */
 
-body {
-    background-color: lightgray;
-}
-
 h1 {
-    font-size: 50px;
+    background-color: #A2D9CE;
+    color: white;
     float: left;
+    font-family: 'Varela Round', 'Georgia';
+    font-size: 50px;
     margin-left: 150px;
-    margin-top: 10px;
+    padding: 10px 30px 15px 30px;
+    text-shadow: 1px 1px 0 black;
 }
 
 li {
@@ -33,8 +33,14 @@ ul {
 
 /* Body */
 
+body {
+    background-color: #EAEDED;
+}
+
 h3 {
+    color: #1ABC9C;
     font-size: 25px;
+    font-weight: bold;
 }
 
 hr {
@@ -51,16 +57,57 @@ hr {
 
 /* index.html */
 
+p {
+    font-family: 'Nunito', 'Georgia';
+    line-height: 25px;
+}
+
 #profile-photo {
     float: left;
+    margin: 5px 15px 15px 0px;
 }
+
+/* portfolio.html */
 
 /* contact.html */
 
-/* portfolio.html */
+h4 {
+    font-family: 'Nunito', 'Georgia';
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+textarea {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #A2D9CE;
+    border-radius: 3px;
+    font-family: 'Nunito', 'Georgia';
+    padding: 5px 15px;
+}
 
 /* Footer */
 
 footer {
+    background-color: #566573;
     text-align: center;
+}
+
+h5 {
+    padding: 10px 0px 20px 0px;
+    color: white;
+    font-family: 'Varela Round', 'Georgia';
+    text-shadow: 1px 1px 0 black;
+}
+
+.footer-line {
+    border-bottom: 10px solid #A2D9CE;
 }
