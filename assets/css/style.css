@@ -1,0 +1,66 @@
+/* Navigation Bar */
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 50px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+nav {
+    background-color: white;
+}
+
+ul {
+    float: right;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.navbar {
+    background-color: white;
+    height: 75px;
+}
+
+/* Body */
+
+h3 {
+    font-size: 25px;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+.clearfix {
+    border-radius: 5px;
+    background-color: white;
+    clear: both;
+    padding: 30px;
+    margin: 50px 200px;
+}
+
+/* index.html */
+
+#profile-photo {
+    float: left;
+}
+
+/* contact.html */
+
+/* portfolio.html */
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
